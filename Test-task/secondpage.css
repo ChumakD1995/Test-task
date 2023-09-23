@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(246, 244, 244);
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.right-content a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 20px;
+}
+
+.right-content button {
+    padding: 10px 20px;
+    background-color: grey;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right-content button:hover {
+    background-color: #0056b3;
+}
+
+.header-top {
+    background-color: rgb(246, 244, 244);
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.navigation li:nth-child(1) a{ 
+    color: #0c0cda; 
+    font-size: 26px;
+    border-right: 1px solid black;
+}
+
+.navigation li:nth-child(2) a {
+    color: #d05213; 
+    font-size: 26px;
+    border-right: 1px solid black;
+}
+
+.navigation li:nth-child(3) a {
+    color: #3cc513; 
+    font-size: 26px;
+    border-right: 1px solid black;
+    padding-left: 2px;
+}
+
+.navigation li:nth-child(4) a {
+    color: #9b3806; 
+    font-size: 26px;
+    border-right: 1px solid black;
+}
+
+.navigation li:nth-child(5) a {
+    color: #d12c12;
+    font-size: 26px;
+    border-right: 1px solid black;
+}
+
+.navigation li:nth-child(6) a {
+    color: #16026e; 
+    font-size: 26px;
+}
+
+header {
+    background-color: rgb(184, 3, 3);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.left-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.left-links li {
+    margin-right: 20px;
+}
+
+.left-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.search button {
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 150px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
